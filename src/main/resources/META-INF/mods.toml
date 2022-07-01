@@ -1,0 +1,49 @@
+modLoader="javafml" 
+
+loaderVersion="[41,)" 
+
+license="LGPL-3.0 License"
+
+[[mods]] 
+
+modId="elegant_networking"
+
+version="${file.jarVersion}" 
+ 
+displayName="Example Mod"
+
+logoFile="elegant_networking.png"
+
+credits='''
+Thx Dahaka for discussions
+Thx @tox1cozZ for drew my attention to the annotations processors
+Thx @Plasticable for advice about using 4.4.1 version of gradle
+Thx @Icosider for consulting on setting up a gradle
+Thx to everyone who uses this framework
+'''
+
+authors="hohserg"
+
+description='''
+This is library of useful network system for minecraft modding
+'''
+
+[[dependencies.elegant_networking]] 
+    
+    modId="forge" 
+    
+    mandatory=true 
+    
+    versionRange="[41,)" 
+    
+    ordering="NONE"
+    
+    side="BOTH"
+
+[[dependencies.elegant_networking]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
