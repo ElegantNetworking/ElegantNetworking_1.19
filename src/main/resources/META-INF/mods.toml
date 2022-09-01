@@ -4,15 +4,17 @@ loaderVersion="[41,)"
 
 license="LGPL-3.0 License"
 
+issueTrackerURL="https://github.com/ElegantNetworking/ElegantNetworking_1.19/issues"
+
 [[mods]] 
 
 modId="elegant_networking"
 
-version="${file.jarVersion}" 
+version="3.16"
  
-displayName="Example Mod"
+displayName="ElegantNetworking"
 
-logoFile="elegant_networking.png"
+displayURL="https://github.com/ElegantNetworking/ElegantNetworkingRoot"
 
 credits='''
 Thx Dahaka for discussions
