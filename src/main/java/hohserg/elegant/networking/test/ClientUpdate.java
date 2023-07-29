@@ -1,6 +1,5 @@
 package hohserg.elegant.networking.test;
 
-import hohserg.elegant.networking.test.network.ExamplePacket1;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -20,7 +19,7 @@ public class ClientUpdate {
     }
 
     @SubscribeEvent
-    public static void onKeyPressed(InputEvent.KeyInputEvent event) {
+    public static void onKeyPressed(InputEvent.Key event) {
         KeyMapping[] keyHotbarSlots = Minecraft.getInstance().options.keyHotbarSlots;
         for (int i = 0; i < keyHotbarSlots.length; i++) {
             KeyMapping key = keyHotbarSlots[i];
